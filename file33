@@ -1,0 +1,5 @@
+webdrivermaneger.chromdriver().setup();
+webdriver driver =new chromdriver();
+driver.get(url);
+driver.manage.windows.maximize;
+driver.manage.timeout.implicitlywait.(20,timeunits.SECONDS);
